@@ -1,6 +1,6 @@
 def buildings():
     N = int(input())
-    A = list(map(int, input().split()))
+    A = list(map(int, input().split()))w
     ans = -1
     target = A[0]
     for i in range(N):
