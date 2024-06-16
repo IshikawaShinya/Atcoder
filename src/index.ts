@@ -6,14 +6,19 @@
 // //アウトプット
 // console.log("input "+ inputArray[0] + " " + inputArray[1] + " " + inputArray[2]);
 //------------------------------------------------------
+//   function a375(inputs:string){
+//     const [NM, Hs]: string[] = inputs.trim().split("\n");
+//     const [N, M]: number[] = NM.split(" ").map(Number);
+//     const numberH: number[] = Hs.split(" ").map(Number);
+//     let sum: number = 0;
+//     let result: number = 0;
+//     let i: number = 0;
+//     do {
+//         sum += numberH[i];
+//         result++;
+//         i++;
+//     } while (sum <= M);
 
-// function main(input: string) {
-//     const [S, T] = input.trim().split("\s")
-//     if (S == "AtCoder" && T == "Land");
-//         console.log("Yes");
-//     else:
-//         console.log("No")
+//     console.log(result - 1);
 //   }
-  
-//   main(require("fs").readFileSync("/dev/stdin", "utf8"));
-  
+//   a375(require("fs").readFileSync("/dev/stdin", "utf8"));
