@@ -12,5 +12,5 @@ function a375(inputs:string){
     } while (sum <= M);
 
     console.log(result - 1);
-  }
-  a375(require("fs").readFileSync("/dev/stdin", "utf8"));
+}   
+a375(require("fs").readFileSync("/dev/stdin", "utf8"));
